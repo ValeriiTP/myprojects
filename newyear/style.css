@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('newyear.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+h1 {
+    font-size: 4em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
