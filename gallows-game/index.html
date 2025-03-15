@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="rules-wrapper" id="rules-wrapper">
+        <div class="rules">
+            гра відгадай слово
+            У тебе є право на 10 помилок, разом з ними буде змінюватися картинка. Коли вона дойде до кніця гру необхідно перезапустити на відповідну клавішу
+        </div>
+        <button type="submit" id="rules-submit-button">START</button>
+        </div>
+    </div>
+    <div class="game-wrapper" id="game-wrapper">
+        <div class="header-wrapper">
+            <div class="hidden-word" id="hidden-word">
+                ПІСЬКА
+            </div>
+        </div>
+        <div class="main-game-block">
+            <div class="image">
+                <img src="public/images/" alt="бабах крімській мостік" id="game-image">
+            </div>
+            <div class="keyboard" id="keyboard"></div>
+        </div>
+        <div class="reset-wrapper">
+            <button type="submit" id="reset-button">Reset</button>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
