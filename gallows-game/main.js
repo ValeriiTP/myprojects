@@ -71,7 +71,7 @@ window.addEventListener("click", (e) => {
     if (e.target.className !== "keyboard-button")
         return;
 
-    if (failStage > Object.entries(failImagesMaps).length - 1) {
+    if (failStage >= Object.entries(failImagesMaps).length - 1) {
         blockKeyboard();
         return;
     }
